@@ -9,4 +9,10 @@ int main() {
     cout<<ptr<<endl;
     cout<<*ptr<<endl;
 
+
+    //there are two types of memeory 
+    //1. static memory
+    //2. dynamic memory
+    //3. heap memory
+
 }
