@@ -72,7 +72,24 @@ int main() {
     while(j<3);
 
     //break and continue 
-    
+
+    //switch case 
+
+    int days;
+
+    switch(days){
+        case 1:
+        cout<<"monday";
+        break;
+
+        case 2:
+        cout<<"tuesday";
+        break;
+
+        default:
+        cout<<"invalid day";
+        break;
+    }   
     
     
 }
