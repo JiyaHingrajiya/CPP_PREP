@@ -1,4 +1,5 @@
 #include<iostream>
+#include<algorithm>
 using namespace std;
 
 int secsmallest(int arr[],int n){
@@ -28,8 +29,9 @@ int seclargest(int arr[],int n){
 
 int main(){
     // int arr[] ={1,2,3,4,5,7,7};
-    int arr[] = {1,1,1,2,2,2,4,4,5};
+    int arr[] = {1,1,1,2,2,2,4,4,8,5};
     int n = sizeof(arr)/sizeof(arr[0]);
+    sort(arr,arr+n);
     cout<<secsmallest(arr,n)<<endl;
     cout<<seclargest(arr,n);
 }
